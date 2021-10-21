@@ -1,0 +1,49 @@
+#bigdiv{
+    margin-top: 4%;
+    /* border: 1px solid black; */
+}
+
+#bigdiv>input{
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+    /* border-radius: 10px; */
+   /* margin-right: 2%; */
+}
+
+#bigdiv>button{
+    width: 10%;
+    height: 56px;
+    /* border-radius: 10px; */
+    font-size: larger;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+#listdiv{
+    border:1px solid grey;
+    width: 50%;
+    margin: 2% auto;
+    height: 40px;
+   text-align: left;
+   border-radius: 10px;
+   padding-left: 2%;
+   display: grid;
+}
+
+#particulardiv{
+   margin-top: 0%;
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    padding: auto;
+}
+#particulardiv>button{
+    border-radius: 5px;
+    padding: 1%;
+}
+#particulardiv>text{
+    margin-top: 2% !important;
+}
