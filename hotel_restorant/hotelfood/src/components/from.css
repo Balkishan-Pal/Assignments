@@ -1,0 +1,74 @@
+#unorderlist>img{
+width: 100%;
+height: 150px;
+object-fit:cover;
+
+}
+
+
+#unorderlist{
+width:50%   ; 
+justify-content: center;   
+display: grid;
+/* border: 3px solid blue; */
+margin: 5% auto;
+padding: 6px;
+}
+
+#unorderlist:hover{
+width:50%   ; 
+justify-content: center;   
+display: grid;
+border: 1px solid grey;
+margin: 2% auto;
+padding: 6px;
+}
+
+#flexdiv{
+    display:flex;
+    justify-content: space-between;
+}
+#bigdiv{
+    width:90%;
+    margin: 2% auto;
+    /* border : 1px solid black; */
+    display: grid;
+    grid-template-columns:30% 30% 30%
+
+}
+
+#greencol{
+    background-color:green;
+    color:white;
+    padding:2%;
+
+}
+#colorred{
+color:red;
+font-size:large;
+}
+#inputhandlingdiv{
+    display:grid;
+    width:30%;
+    margin: 5% auto;
+    grid-gap: 13%;
+    margin-bottom:10%
+}
+
+#inputhandlingdiv >input{
+height: 30px;
+border:none;
+border-bottom: 1px solid black
+}
+
+#inputhandlingdiv>button{
+width: 30%;
+font-size:larger;
+margin:auto;
+
+}
+#inputhandlingdiv>select{
+    height: 30px;
+border:none;
+border-bottom: 1px solid black
+}
