@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "username": "balkishan pal",
+      "email": "balkishanpal1@gmail.com",
+      "phone": "09074741347",
+      "dob": "2021-12-10",
+      "password": "1234567890",
+      "id": 1
+    },
+    {
+      "username": "raju",
+      "email": "priyankaguptaisonline3@gmail.com",
+      "phone": "534464565464",
+      "dob": "2021-12-30",
+      "password": "ddfsffdfsdf",
+      "id": 2
+    }
+  ]
+}
