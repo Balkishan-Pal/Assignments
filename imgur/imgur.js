@@ -1,5 +1,5 @@
 async function productData(){
-    let res = await fetch('https://fakestoreapi.com/products')
+    let res = await fetch('https://fakestoreapi.com/products/category/jewelery')
     let data = await res.json()
     
     Add(data)
