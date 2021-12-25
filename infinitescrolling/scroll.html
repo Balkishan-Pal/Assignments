@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scroll.css">
+    <title>Scrolling</title>
+</head>
+<body>
+
+    <div id="users">
+        <h2>Scrolling to Infinity</h2>
+        <div id="data"></div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<script>
+let newpage = 1
+const content = document.getElementById("data")
+
+const renderusers = (users) => {
+    users.results.map(user => {
+        const userdiv = document.createElement("div")
+        userdiv.id = "userdiv"
+        let p = document.createElement("h4")
+        p.innerText = user.email
+        userdiv.appendChild(p)
+        content.appendChild(userdiv)
+    })
+}
+
+const getUsers = async (page) => {
+    const res = await fetch(`https://randomuser.me/api/?page=${page}&results=10`)
+    const users = await res.json()
+    renderusers(users)
+}
+
+getUsers()
+
+const loadmore = async () => {
+    const { scrollTop, clientHeight, scrollHeight } = content
+    if (scrollHeight - scrollTop === clientHeight) {
+        const users = await getUsers(newpage)
+        renderusers(users)
+        newpage = newpage + 1
+    }
+
+}
+
+loadmore()
+newpage = newpage + 1
+
+content.addEventListener('scroll', loadmore)
+
+
+</script>
