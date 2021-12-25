@@ -1,0 +1,220 @@
+
+body{
+    background-color: rgb(19, 19, 78);
+    font-family: Proxima Nova Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(19, 19, 78);
+    margin-top: -100px;
+    width: 100%;
+}
+
+#btn{
+    width: 130px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    margin: 0 30px;
+    background-color: #1bb76e;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#btn img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#search{
+    margin-left: 100px;
+    background: hsla(0,0%,100%,.25);
+    opacity: .8;
+    border: 1px solid transparent;
+    display: flex;
+}
+
+#text{
+    width: 450px;
+    border: none;
+    height: 15px;
+    background: hsla(0,0%,100%,.25); 
+    background: transparent; 
+    border-radius: 3px;
+    opacity: .8;
+    border: 1px solid transparent;
+    padding: 8px 35px 8px 10px;
+    text-shadow: inherit;
+    -webkit-text-fill-color: inherit;
+    color: #fff;
+    
+}
+
+#search button{
+    border: none;
+    background: hsla(0,0%,100%,.25);
+    background: transparent;
+    text-transform: none;
+}
+
+.Searchbar-submitInput {
+    font-size: 20px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: transparent;
+    color: #fff;
+    border: 0;
+    outline: 0 none;
+    color: white;
+    cursor: pointer;
+}
+
+#text::placeholder{
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+#badge{
+    margin-left: 40px;
+}
+
+#go{
+    width: 100px;
+    height: 35px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 4px;
+    background: #6432f9;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
+    overflow: hidden;
+}
+
+#header h4{
+    color: white;
+    margin-left: 20px;
+}
+
+#signup{
+    background-color: #1bb76e;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 35px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+#meme{
+    color: #aed8ea;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#cards{
+    margin-left: 60px;
+}
+
+#cards h4{
+    color: rgb(204, 197, 197);
+}
+
+#headings{
+    display: flex;
+    gap: 1000px;
+}
+
+#card-content{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    color: white;
+}
+
+#card-content p{
+    color: hsla(0,0%,100%,.5);
+    font-size: 14px;
+}
+
+#maincard{
+    width: 400px;
+    background-color: rgb(197, 101, 121);
+    height: 300px;
+}
+
+#maincard:hover{
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+#card1{
+    width: 200px;
+   background-color: #01b96b;
+}
+
+#card1:hover{
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+#card2{
+    width: 200px;
+    background-color: rgb(170, 51, 230);
+}
+
+#card2:hover{
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+#card3{
+    width: 200px;
+    background-color: rgb(80, 83, 90);
+}
+
+#card3:hover{
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+#card4{
+    width: 200px;
+    background-color: rgb(143, 45, 143);
+}
+
+#card4:hover{
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+#data{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    margin-top: 150px;
+}
+
+#data img{
+    width: 430px;
+    height: 400px;
+}
+
+#data h3{
+    font-size: 14px;
+}
+
+#datadiv{
+    background-color: rgb(141, 137, 137);
+}
